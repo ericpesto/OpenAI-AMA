@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>AI 8 Ball</title>
+        <title>Open AI Ask Me Anything</title>
         <link rel="icon" href="/8ball.svg" />
       </Head>
 
