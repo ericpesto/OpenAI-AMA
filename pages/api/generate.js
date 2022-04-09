@@ -15,8 +15,6 @@ export default async function (req, res) {
   res.status(200).json({ result: completion.data.choices[0].text });
 }
 
-// a child
-
 function generatePrompt(question) {
 
   return `Answer my question in a way that a smart child would understand.
