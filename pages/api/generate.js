@@ -17,7 +17,7 @@ export default async function (req, res) {
 
 function generatePrompt(question) {
 
-  return `Answer my question in a way that a smart child would understand.
+  return `Answer my question in a way that a smart child would understand. 
 
 My question: ${question}
 Your answer:`;

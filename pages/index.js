@@ -5,6 +5,7 @@ import styles from "./index.module.css";
 export default function Home() {
   const [questionInput, setQuestionInput] = useState("");
   const [result, setResult] = useState();
+  // store question to display above answer
 
   async function onSubmit(event) {
     event.preventDefault();

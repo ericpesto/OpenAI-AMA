@@ -13,8 +13,10 @@
   font-weight: bold;
   font-style: normal;
 }
+
 .main,
 .main input {
+  background-color: #fafafa;
   font-size: 16px;
   line-height: 24px;
   color: #353740;
@@ -30,7 +32,7 @@
   width: 34px;
 }
 .main h3 {
-  font-size: 32px;
+  font-size: 46px;
   line-height: 40px;
   font-weight: bold;
   color: #202123;
@@ -64,4 +66,7 @@
   font-weight: bold;
   margin-top: 40px;
   height: 600px;
+  width: 500px;
+  text-align: center;
+  
 }
